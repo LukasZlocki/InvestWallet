@@ -15,5 +15,6 @@ namespace InvestWallet.Data
         }
 
         public DbSet<Wallet> Wallet { get; set; } 
+        public DbSet<Transaction> Transactions { get; set; }
     }
 }
