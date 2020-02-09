@@ -16,6 +16,10 @@ namespace InvestWallet.Models
         [Required]
         public string description { get; set; }
 
+        [Required]
+        [Display(Name="Capital")]
+        public double InitialCapital { get; set; }
+
         //reference to transactions
         [Required]
         [Display(Name="Transaction")]
